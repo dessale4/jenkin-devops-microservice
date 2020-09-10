@@ -32,7 +32,7 @@ pipeline{
 		success{
 			echo "I run only if you are successful"
 		}
-		always{
+		failure{
 			echo "I run when you fail"
 		}
 	}
