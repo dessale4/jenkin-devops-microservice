@@ -24,7 +24,8 @@ pipeline{
 				echo "Integration Test"
 			}
 		}
-	} post{
+	} 
+	post{
 		always{
 			echo "I am awesom. I run always"
 		}
