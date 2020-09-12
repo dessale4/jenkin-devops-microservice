@@ -11,9 +11,9 @@ pipeline{
 	// agent{ docker {image 'maven:3.6.3'}}
 	agent {
 		docker {
-			// image 'maven:3-alpine'
-			image 'maven:3.6.3'
-			label 'homebrew.mxcl.jenkins-lts'
+			image 'maven:3-alpine'
+			// image 'maven:3.6.3'
+			// label 'homebrew.mxcl.jenkins-lts'
 		}
 	}
 	stages{
