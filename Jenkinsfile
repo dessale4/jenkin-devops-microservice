@@ -13,7 +13,7 @@ pipeline{
 		docker {
 			// image 'maven:3-alpine'
 			image 'maven:3.6.3'
-			// label 'docker'
+			label 'homebrew.mxcl.jenkins-lts'
 		}
 	}
 	stages{
